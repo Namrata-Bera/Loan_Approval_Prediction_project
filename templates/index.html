@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Home - LoanPredict AI{% endblock %}
+{% block content %}
+<section class="hero p-5 rounded-4">
+  <div class="row align-items-center">
+    <div class="col-lg-8">
+      <span class="badge bg-primary mb-3">Machine Learning Classification</span>
+      <h1 class="display-5 fw-bold">Loan Approval Prediction</h1>
+      <p class="lead">Predict whether a loan application is likely to be approved using applicant and financial information.</p>
+      <a href="{{ url_for('predict') }}" class="btn btn-primary btn-lg">Start Prediction</a>
+    </div>
+    <div class="col-lg-4 text-center display-icon">🏦</div>
+  </div>
+</section>
+<div class="row mt-5 g-4">
+  <div class="col-md-4"><div class="card h-100 p-3"><h4>📊 ML Model</h4><p>Uses Logistic Regression for binary classification.</p></div></div>
+  <div class="col-md-4"><div class="card h-100 p-3"><h4>⚡ Fast Result</h4><p>Enter applicant details and receive an instant prediction.</p></div></div>
+  <div class="col-md-4"><div class="card h-100 p-3"><h4>🗄️ History</h4><p>Predictions are stored in a local SQLite database.</p></div></div>
+</div>
+{% endblock %}

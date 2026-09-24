@@ -1,0 +1,12 @@
+body { background: #f7f9fc; color: #222; }
+.hero { background: white; border: 1px solid #e7ebf0; }
+.display-icon { font-size: 7rem; }
+.card { border: 0; border-radius: 16px; }
+label { font-weight: 600; margin-bottom: 6px; }
+.result-card { max-width: 650px; margin: auto; padding: 50px 30px; border-radius: 20px; background: white; box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+.approved { border-top: 8px solid #198754; }
+.rejected { border-top: 8px solid #dc3545; }
+.result-icon { font-size: 70px; font-weight: bold; }
+.approved .result-icon { color: #198754; }
+.rejected .result-icon { color: #dc3545; }
+table { background: white; }
